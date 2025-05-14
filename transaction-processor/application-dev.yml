@@ -1,0 +1,12 @@
+server:
+    port: 8083
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/transaction-processor
+    kafka:
+        bootstrap-servers: localhost:9092
+currency-service:
+    url: http://CURRENCY-EXCHANGE/api/v1/ce/getExchangedValue
+account-service:
+    url: http://ANB/api/v1/accounts
+

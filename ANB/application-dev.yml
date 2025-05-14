@@ -1,0 +1,11 @@
+server:
+    port: 8080
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/ANB
+currency-service:
+        url: http://CURRENCY-EXCHANGE/api/v1/ce/getExchangedValue
+notification-service:
+        url: http://NOTIFICATION/api/v1/notification/
+transaction-service:
+        url: http://TRANSACTION-PROCESSOR/api/v1/transactions/
