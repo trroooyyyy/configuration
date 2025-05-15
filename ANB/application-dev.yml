@@ -1,5 +1,5 @@
 project:
-  title: "My Project from Config Server"
+  title: "My Project from Config Server!!!"
 server:
     port: 8080
 spring:
